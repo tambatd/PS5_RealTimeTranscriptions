@@ -1,0 +1,15 @@
+.playStation {
+  width: 1000px;
+  height: 562.5px;
+  /* maintains 16:9 image ratio */
+  background-image: url("./assets/ps5.png");
+  background-size: cover;
+}
+
+.mainDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
