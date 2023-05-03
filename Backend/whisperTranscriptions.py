@@ -14,7 +14,7 @@ from time import sleep
 from sys import platform
 
 
-def main():
+def whisperTranscription():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="medium", help="Model to use",
                         choices=["tiny", "base", "small", "medium", "large"])
@@ -149,4 +149,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    whisperTranscription()
