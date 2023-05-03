@@ -13,8 +13,10 @@ from tempfile import NamedTemporaryFile
 from time import sleep
 from sys import platform
 
+### https://github.com/davabase/whisper_real_time
+### Modified code from above repo
 
-def whisperTranscription():
+def whisperTranscriptions():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="medium", help="Model to use",
                         choices=["tiny", "base", "small", "medium", "large"])
@@ -148,5 +150,3 @@ def whisperTranscription():
         print(line)
 
 
-if __name__ == "__main__":
-    whisperTranscription()
